@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header-nav,
 .header-left,
 .header-nav ul {
@@ -12,10 +17,17 @@
 
 .header-nav {
     justify-content: space-around;
+    flex: none;
+    padding: 20px;
+    background-color: #1F2937;
+    font-family: Roboto, sans-serif;
 }
 
 .header-nav .header-left {
-
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    gap: 10px;
 }
 
 .header-nav ul {
@@ -24,5 +36,8 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
