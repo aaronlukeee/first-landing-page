@@ -70,9 +70,12 @@ body {
 }
 
 .hero-text-container button {
-    width: 90px;
+    width: 130px;
     height: 40px;
-    
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border-style: none;
 }
 
 .content-body-1 img {
