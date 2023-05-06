@@ -3,15 +3,22 @@
     box-sizing: border-box;
 }
 
-.header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
+.header-nav,
+.header-left,
 .header-nav ul {
     display: flex;
     align-items: center;
+}
+
+.header-nav {
+    justify-content: space-around;
+}
+
+.header-nav .header-left {
+
+}
+
+.header-nav ul {
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
