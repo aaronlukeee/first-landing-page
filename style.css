@@ -46,6 +46,15 @@ body {
 }
 
 .content-body .content-body-1 {
+    justify-content: center;
+    padding: 25px;
+}
+
+.content-body-1 .hero-text-container {
     
+}
+
+.content-body-1 img {
+    height: 300px;
 }
 
