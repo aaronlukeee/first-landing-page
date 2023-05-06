@@ -76,6 +76,7 @@ body {
     color: #F9FAF8;
     border-radius: 10px;
     border-style: none;
+    cursor: pointer;
 }
 
 .content-body-1 img {
