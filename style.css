@@ -9,6 +9,10 @@ body {
     font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
+strong {
+    font-weight: 800;
+}
+
 .header-nav,
 .header-left,
 .header-nav ul,
@@ -25,7 +29,7 @@ body {
 }
 
 .header-nav .header-left {
-    font-weight: bold;
+    font-weight: 800;
     font-size: 24px;
     color: #F9FAF8;
     gap: 10px;
