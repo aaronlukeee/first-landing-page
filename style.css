@@ -9,9 +9,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* strong {
-    font-weight: normal
-} */
+strong {
+    font-weight: 900;
+}
 
 .header-nav,
 .header-left,
@@ -93,7 +93,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 55px 125px 125px;
-    gap: 25px;
+    gap: 40px;
 }
 
 .content-body .content-body-header {
@@ -103,7 +103,7 @@ body {
 .content-body .squares-container {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
 }
 
 .squares-container .square-and-text-container {
@@ -112,13 +112,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 200px;
-    gap: 5px;
+    gap: 12px;
 }
 
 .square-and-text-container .square {
     display: flex;
-    border: 4px solid #3882F6;
-    border-radius: 10px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
     height: 180px;
     width: 180px;
 }
