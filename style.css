@@ -172,3 +172,17 @@ strong {
     border-radius: 15px;
     border-style: none;
 }
+
+.cta-container .call-to-action {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.cta-container .call-to-action-subtext {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.cta-container .cta-button {
+    
+}
