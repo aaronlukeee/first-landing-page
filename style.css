@@ -1,7 +1,7 @@
-/* * {
+* {
     border: 1px solid red;
     box-sizing: border-box;
-} */
+}
 
 body {
     margin: 0;
@@ -129,4 +129,21 @@ strong {
     font-size: 18px;
     color: #5c5c5c;
     width: 180px;
+}
+
+.content-body .content-body-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px;
+    background-color: #E5E7EB;
+}
+
+.content-body-3 .quote-main {
+
+}
+
+.content-body-3 .quote-text {
+    
 }
