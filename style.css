@@ -141,9 +141,16 @@ strong {
 }
 
 .content-body-3 .quote-main {
-
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 1000px;
+    color: #1F2937;
 }
 
-.content-body-3 .quote-text {
-    
+.content-body-3 .quote-author {
+    display: flex;
+    justify-content: flex-end;
+    width: 1000px;
+    font-weight: bold;
 }
