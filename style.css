@@ -1,12 +1,12 @@
-/* * {
+* {
     border: 1px solid red;
     box-sizing: border-box;
-} */
+}
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-nav,
@@ -62,6 +62,7 @@ body {
 .hero-text-container .hero-text {
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: bold;
 }
 
 .hero-text-container .description {
@@ -88,8 +89,36 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 40px 100px 100px;
+    gap: 25px;
 }
 
 .content-body .content-body-header {
-    
+    font-size: 36px;
+}
+
+.content-body .squares-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.squares-container .square-and-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 15px;
+}
+
+.square-and-text-container .square {
+    display: flex;
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+}
+
+.square-and-text-container .text {
+    display: flex;
+    flex-wrap: wrap;
 }
