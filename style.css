@@ -1,7 +1,7 @@
-* {
+/* * {
     border: 1px solid red;
     box-sizing: border-box;
-}
+} */
 
 body {
     margin: 0;
@@ -183,6 +183,13 @@ strong {
     color:#E5E7EB;
 }
 
-.cta-container .cta-button {
-    
+.inner-container .cta-button {
+    width: 130px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: 2.5px solid #F9FAF8;
+    cursor: pointer;
+    font-weight: bold;
 }
