@@ -1,7 +1,7 @@
-/* * {
+* {
     border: 1px solid red;
     box-sizing: border-box;
-} */
+}
 
 body {
     margin: 0;
@@ -19,7 +19,8 @@ strong {
 .content-body .content-body-1,
 .content-body .content-body-2, 
 .content-body .content-body-4,
-.content-body-4 .inner-container  {
+.content-body-4 .inner-container,
+.content-body .footer {
     display: flex;
     align-items: center;
 }
@@ -192,4 +193,8 @@ strong {
     border: 2.5px solid #F9FAF8;
     cursor: pointer;
     font-weight: bold;
+}
+
+.content-body .footer {
+    justify-content: center;
 }
