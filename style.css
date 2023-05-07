@@ -1,7 +1,7 @@
-/* * {
+* {
     border: 1px solid red;
     box-sizing: border-box;
-} */
+}
 
 body {
     margin: 0;
@@ -55,7 +55,8 @@ strong {
 
 .content-body .content-body-1 {
     justify-content: center;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 125px;
     gap: 115px;
     background-color: #1F2937;
 }
@@ -162,13 +163,13 @@ strong {
 
 .content-body .content-body-4 {
     justify-content: center;
-    padding: 100px;
+    padding: 150px;
 }
 
 .content-body-4 .inner-container {
     justify-content: space-around;
-    width: 1250px;
-    height: 200px;
+    width: 1100px;
+    height: 150px;
     background-color: #3882F6;
     border-radius: 15px;
     border-style: none;
@@ -200,5 +201,5 @@ strong {
     font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
-    padding: 25px;
+    padding: 35px;
 }
