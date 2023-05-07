@@ -165,5 +165,8 @@ strong {
 }
 
 .content-body-4 .inner-container {
-
+    padding: 80px 500px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    border-style: none;
 }
