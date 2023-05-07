@@ -1,7 +1,7 @@
-/* * {
+* {
     border: 1px solid red;
     box-sizing: border-box;
-} */
+}
 
 body {
     margin: 0;
@@ -120,8 +120,8 @@ strong {
     display: flex;
     border: 5px solid #3882F6;
     border-radius: 16px;
-    height: 180px;
-    width: 180px;
+    height: 190px;
+    width: 190px;
 }
 
 .square-and-text-container .text {
@@ -129,7 +129,8 @@ strong {
     flex-wrap: wrap;
     font-size: 18px;
     color: #5c5c5c;
-    width: 180px;
+    width: 190px;
+    text-align: center;
 }
 
 .content-body .content-body-3 {
