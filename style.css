@@ -83,3 +83,13 @@ body {
     height: 300px;
 }
 
+.content-body .content-body-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 100px 100px;
+}
+
+.content-body .content-body-header {
+    
+}
