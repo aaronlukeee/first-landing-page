@@ -165,7 +165,9 @@ strong {
 }
 
 .content-body-4 .inner-container {
-    padding: 80px 500px;
+    justify-content: space-around;
+    width: 1250px;
+    height: 200px;
     background-color: #3882F6;
     border-radius: 15px;
     border-style: none;
