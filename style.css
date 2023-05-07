@@ -6,11 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-strong {
-    font-weight: 900;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
 .header-nav,
@@ -142,7 +138,7 @@ strong {
 
 .content-body-3 .quote-main {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 300;
     font-style: italic;
     width: 1000px;
     color: #1F2937;
