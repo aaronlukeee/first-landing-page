@@ -18,7 +18,8 @@ strong {
 .header-nav ul,
 .content-body .content-body-1,
 .content-body .content-body-2, 
-.content-body .content-body-4 {
+.content-body .content-body-4,
+.content-body-4 .inner-container  {
     display: flex;
     align-items: center;
 }
@@ -158,6 +159,11 @@ strong {
     font-size: 18px;
 }
 
-.content-body-4 .content-body {
+.content-body .content-body-4 {
+    justify-content: center;
+    padding: 100px;
+}
+
+.content-body-4 .inner-container {
 
 }
